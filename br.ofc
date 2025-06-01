@@ -1,0 +1,145 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quitel Locação</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #0d1b2a;
+      color: #a8ff3e;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #1b263b;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .benefits {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .benefit {
+      background-color: #e0e1dd;
+      padding: 1.5rem;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #1b263b;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .whatsapp-button {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 0.8rem 1.2rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+    .frota-img {
+      width: 100%;
+      max-width: 800px;
+      margin: 1.5rem auto;
+      display: block;
+      border-radius: 8px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 500px;
+      margin: 2rem auto;
+    }
+    input, textarea {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    button {
+      padding: 0.8rem;
+      background-color: #0d1b2a;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 0;
+      margin-top: 2rem;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Quitel Locação</h1>
+    <p>Locação de caminhão gabinado, retrô escavadeira e Toyota</p>
+  </header>  <nav>
+    <a href="#beneficios">Benefícios</a>
+    <a href="#frota">Frota</a>
+    <a href="#contato">Contato</a>
+  </nav>  <section id="beneficios">
+    <h2>Por que escolher a Quitel?</h2>
+    <div class="benefits">
+      <div class="benefit">
+        <h3>🚛 Frota Versátil</h3>
+        <p>Caminhão gabinado, retrô escavadeira e Toyota para diferentes serviços e demandas.</p>
+      </div>
+      <div class="benefit">
+        <h3>🔧 Prontos para Trabalhar</h3>
+        <p>Veículos revisados, confiáveis e sempre preparados para uso imediato.</p>
+      </div>
+      <div class="benefit">
+        <h3>⚡ Atendimento Rápido</h3>
+        <p>Contato direto, locação fácil e suporte ágil para o que você precisar.</p>
+      </div>
+    </div>
+  </section>  <section id="frota">
+    <h2>Nossa Frota</h2>
+    <img class="frota-img" src="https://via.placeholder.com/800x400?text=Foto+do+Caminhao" alt="Caminhão Gabinado">
+    <img class="frota-img" src="https://via.placeholder.com/800x400?text=Foto+da+Retroescavadeira" alt="Retroescavadeira">
+    <img class="frota-img" src="https://via.placeholder.com/800x400?text=Foto+da+Toyota" alt="Toyota">
+  </section>  <section id="contato">
+    <h2>Fale com a gente</h2>
+    <p>Entre em contato pelo WhatsApp ou envie uma mensagem pelo formulário abaixo:</p>
+    <a class="whatsapp-button" href="https://wa.me/SEUNUMERO" target="_blank">Chamar no WhatsApp</a><form action="mailto:seuemail@exemplo.com" method="POST" enctype="text/plain">
+  <input type="text" name="nome" placeholder="Seu nome" required>
+  <input type="email" name="email" placeholder="Seu e-mail" required>
+  <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+  <button type="submit">Enviar</button>
+</form>
+
+<h3>Onde estamos</h3>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4883583490987!2d-46.639219085020375!3d-23.588189784669882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c42a1b0a15%3A0xf0f0f0f0f0f0f0f0!2sLocaliza%C3%A7%C3%A3o+Exemplo!5e0!3m2!1spt-BR!2sbr!4v0000000000000" allowfullscreen="" loading="lazy"></iframe>
+
+  </section>  <footer>
+    <p>&copy; 2025 Quitel Locação. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
